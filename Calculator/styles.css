@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, #00c0ff, #ff9500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    padding: 0;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.calculator {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#clear,
+#calculate {
+    background-color: #903749;
+}
+
+.buttons {
+    display: flex;
+}
+
+.b1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+.b2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.operator {
+    background-color: #ff9500;
+    color: #444;
+}
+
+.operator:hover {
+    background-color: #ffad33;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+#backgroundButton {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}

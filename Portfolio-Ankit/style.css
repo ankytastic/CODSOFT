@@ -1,0 +1,195 @@
+/* General */
+* {
+    font-family: Ubuntu;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.hr {
+    border-bottom: #00ADB5 dotted 10px;
+    width: 5vw;
+    margin: 20px auto;
+}
+
+.section {
+    margin: 10vh 0;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+/* header */
+.navbar {
+    background-color: #222831 !important;
+    color: #EEEEEE !important;
+}
+
+nav {
+    padding: 20px 0px !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #00ADB5 !important;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-family: Lumanosimo;
+}
+
+.nav-item .btn {
+    background-color: #00ADB5;
+    border: none;
+}
+
+.nav-item .btn:hover {
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+/* Main Section */
+
+/* Profile */
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome img {
+    padding: 20px;
+    width: 40vh;
+    border-radius: 100%;
+    margin-top: 10vh;
+}
+
+.welcome h1 {
+    margin-top: 2vh;
+    font-size: 1.75em;
+}
+
+.details h1 {
+    font-family: Lumanosimo;
+}
+
+/* Projects */
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 20vh;
+    border-radius: 20px;
+    box-shadow: rgba(156, 153, 153, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.projImg {
+    width: 25vw;
+}
+
+.projImg img {
+    width: 25vw;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h3 {
+    color: #00ADB5;
+    font-size: 1.25em;
+}
+
+/* Skills */
+marquee {
+    margin: 20px 0;
+}
+
+/* About */
+#about {
+    display: flex;
+    margin: 0 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    border-radius: 100%;
+    width: 20vw;
+}
+
+#about p {
+    padding: 2vw;
+    width: 50vw;
+    text-align: justify;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #393E46;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.btn-info {
+    background-color: #00ADB5;
+}
+
+/* Footer */
+
+/* Socials */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: #EEEEEE;
+    background-color: #393E46;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+i{
+    color: #00ADB5;
+    padding: 10px;
+}
