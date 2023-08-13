@@ -4,9 +4,8 @@ const operators = document.querySelectorAll(".operator");
 const calculateButton = document.getElementById("calculate");
 const clearButton = document.getElementById("clear");
 
-// Function to handle button clicks and keyboard input
 function handleInput(input) {
-    if (input === "=") {
+    if (input === "Enter") {
         try {
             display.value = eval(display.value);
         } catch (error) {
@@ -15,13 +14,12 @@ function handleInput(input) {
     } else if (input === "C") {
         display.value = "";
     } else if (input === "." && display.value.includes(".")) {
-        return; // Prevent adding multiple decimal points
+        return; 
     } else {
         display.value += input;
     }
 }
 
-// Add event listeners to buttons for click events
 buttons.forEach(button => {
     button.addEventListener("click", () => {
         handleInput(button.textContent);
